@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+    text-transform: uppercase;
+    font-size: .9rem;
+    background: rgba(0,0,0,.6)!important;
+}
+
+.navbar > img{
+    width:30px;
+    height:20px;
+    text-align: left;
+    position:absolute;
+    left:145px;
+    top:19px
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-darl .navbar-nav .nav-link:hover{
+    color: grey;
+}
+
+/* SLIDER */
+
+.carousel-item {
+    background-size: auto 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 38%;
+}
+
+#explore > h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.col-md-6 img {
+    width: 100%;
+    
+}
+
